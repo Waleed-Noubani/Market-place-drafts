@@ -12,7 +12,7 @@ $page_title = 'Shopping Cart';
 if (!isset($_SESSION['cart'])) {
     $_SESSION['cart'] = [];
 }
-
+// test
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['remove'])) {
     $service_id_toRemove = $_POST['service_id'] ?? '';
     
