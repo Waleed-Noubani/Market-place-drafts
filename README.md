@@ -1,3 +1,140 @@
+# 🎯 Freelance Services Marketplace
+
+## 📌 Project Overview
+Freelance Services Marketplace is a database-driven web application that connects **Clients** with **Freelancers** offering professional services such as web development, design, writing, marketing, and more.
+The system simulates a real freelancing platform (similar to Fiverr/Upwork) and was developed using core web technologies only.
+
+---
+
+## 👥 User Roles
+
+### 👤 Client
+- Register & Login
+- Browse & Search Services
+- View Service Details
+- Add Services to Cart
+- Complete Checkout
+- Place Orders
+- Manage Orders
+
+### 👨‍💻 Freelancer
+- Register & Login
+- Manage Profile
+- Create Services (3-step process)
+- Upload Service Images
+- Edit / Activate / Deactivate Services
+- Mark Services as Featured (max 3)
+- Manage Orders & Deliver Work
+
+---
+
+## 🛠 Technologies Used
+
+- **HTML5** – Page structure
+- **CSS3** – Styling (Flexbox & Grid)
+- **PHP** – Server-side logic & sessions
+- **MySQL** – Database
+- **PDO** – Secure database connection
+
+
+## 🔐 Security Features
+
+- Password hashing
+- Prepared statements (PDO)
+- Role-based access control
+- Session management
+- Account lock after multiple failed login attempts
+
+---
+
+## 🛍 Core Features
+
+### ✅ Authentication System
+- User Registration with validation
+- Login system with session handling
+- Role-based redirection
+
+### 🧾 Service Management
+- Create Service (Basic Info → Upload Images → Review)
+- Unique 10-digit Service ID
+- Status: Active / Inactive
+- Featured toggle (max 3 per freelancer)
+
+### 🔎 Browse & Search
+- Keyword search
+- Category filtering
+- Sorting (Price / Date)
+- Featured services section
+- Pagination
+
+### 🛒 Shopping Cart (OOP)
+- Cart stores Service objects
+- Price locked when added
+- 5% service fee calculation
+- No duplicate services allowed
+- Session-based cart
+
+### 💳 Checkout System
+- 3-step checkout process
+- One service = one order
+- Requirement file uploads
+- Transaction ID generation
+- Cart cleared after successful order
+
+### 📦 Order Management
+- Track order status
+- Upload deliveries
+- Request revisions
+- Mark orders as completed
+- Leave reviews
+
+---
+
+## 🗄 Database Structure
+
+Main Tables:
+- Users
+- Services
+- Service Images
+- Orders
+- File Attachments
+- Reviews
+- Categories & Subcategories
+
+---
+
+## 📂 Project Structure
+
+/uploads/
+/profiles/
+/services/
+/orders/
+
+db.php.inc
+index.php
+browse-services.php
+service-detail.php
+create-service.php
+edit-service.php
+cart.php
+checkout.php
+my-orders.php
+profile.php
+
+
+
+## 🎓 Academic Information
+
+- Course: Web Application & Technologies (COMP 334)
+- Technologies restricted to: HTML, CSS, PHP, MySQL
+- All SQL queries use prepared statements
+- Multi-page PHP application
+- Individual project
+
+---
+
+## 🚀 Conclusion
+This project demonstrates full-stack PHP development, secure authentication, database integration, OOP concepts, file handling, and a complete e-commerce workflow.
 <img width="1897" height="909" alt="Screenshot 2026-02-21 002207" src="https://github.com/user-attachments/assets/fecc1dd2-7e32-4617-96fc-5e53f9e841a7" />
 <img width="1326" height="910" alt="Screenshot 2026-02-21 002248" src="https://github.com/user-attachments/assets/a8a40b77-2512-4c3b-80b8-1d44101f415f" />
 <img width="1586" height="837" alt="Screenshot 2026-02-21 002347" src="https://github.com/user-attachments/assets/bbbff757-058e-407e-85ae-b3f30dc35823" />
