@@ -1,0 +1,11 @@
+10 10.0
+Study Algorithms,3.0,9
+Watch Lecture,2.0,6
+Do Homework,4.0,12
+Exercise,2.0,5
+Read Book,1.0,3
+Prepare Presentation,2.0,7
+Review Notes,1.0,4
+Practice Coding,3.0,10
+Team Meeting,1.0,2
+Break Time,1.0,1
